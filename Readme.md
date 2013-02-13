@@ -1,22 +1,16 @@
-Get friends with Twitter
-========================
+Using Google Maps JavaScript API
+================================
 
-A code example written in node.js that displays the profile pictures of 5 Twitter friends from the provided screenname. This code example makes use of the following:
+A javascript code example written by Google to demonostrate how to use the Maps JavaScript API. (Example details can be found here: https://developers.google.com/maps/documentation/javascript/tutorial). This example makes use of the following:
 
-* express - a web framework module used to serve up static content and handle routes
-
-* request - a HTTP request client module used to make calls to Twitter's API
-
-* qs - a querystring parser used to encode JSON to querystring parameters
+* express - a web framework module used to serve up web pages
 
 
 Project contents
 ----------------
 
-* server.js - contains the node.js code used to retrieve and display the first 5 friends from Twitter
+* server.js - contains the node.js code used to serve up the HTML page (as an HTTP server)
 
-* styles.css - stylesheet used to format the outputted html
+* index.html - html page that contains the JavaScript used to call and render the Google Maps API client-side
 
 * package.json - holds various metadata relevant to the project such as identifying dependencies
-
-

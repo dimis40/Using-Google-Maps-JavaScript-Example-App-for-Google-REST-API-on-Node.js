@@ -1,11 +1,9 @@
 {
-  "name": "get-friends-with-twitter",
+  "name": "google-maps-javascript-example",
   "version": "0.0.1",
-  "description": "Demo Twitter app that retrieves the first 5 friends from the specified twitter user.",
+  "description": "A code sample using client-side JavaScript Google Maps API",
   "dependencies": {
-	"request": "*",
-	"qs": "*",
-	"express": "*"
+  	"express": "*"
    },
   "engine": "node 0.6.x"
 }

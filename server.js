@@ -1,5 +1,17 @@
-var express = require("express")
-  , app = express();
+#!/usr/bin/env node
+var express = require('express');
 
-app.use(express.static(__dirname));
-app.listen(process.env.OPENSHIFT_NODEJS_PORT, process.env.OPENSHIFT_NODEJS_IP);
+var app = express.createServer(express.logger());
+
+var fs = require('fs');
+var inputFile = fs.readFileSync('index.html').toString();
+console.log(inputFile);
+
+app.get('/', function(request, response) {
+  response.send(inputFile);
+});
+
+var port = process.env.PORT || 8080;
+app.listen(port, function() {
+  console.log("Listening on " + port);
+})

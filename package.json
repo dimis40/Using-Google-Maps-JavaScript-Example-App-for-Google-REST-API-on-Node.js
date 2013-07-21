@@ -3,7 +3,21 @@
   "version": "0.0.1",
   "description": "A code sample using client-side JavaScript Google Maps API",
   "dependencies": {
-  	"express": "*"
-   },
-  "engine": "node 0.6.x"
+    "express": "*"
+  },
+  "engine": "node 0.6.x",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimis40/Using-Google-Maps-JavaScript-Example-App-for-Google-REST-API-on-Node.js"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/dimis40/Using-Google-Maps-JavaScript-Example-App-for-Google-REST-API-on-Node.js/issues"
+  }
 }
